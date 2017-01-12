@@ -41,7 +41,7 @@ if ( ! class_exists( 'BSFPurgeCache' ) ) {
 				FLBuilderModel::delete_asset_cache_for_all_posts();
 			}
 
-			if ( class_exists( 'Nginx_Helper_WP_CLI_Command' ) ) {
+			if ( class_ecists( '\rtCamp\WP\Nginx\Helper' ) ) {
 				
 				global $rt_wp_nginx_purger;
 				$rt_wp_nginx_purger->true_purge_all();
