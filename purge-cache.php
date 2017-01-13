@@ -2,7 +2,7 @@
 /*
  * Plugin Name: Purge Cache
  * Plugin URI: http://www.brainstormforce.com/
- * Description: Notify webpagetest report to your slack channel
+ * Description: Clear UABB, Nginx cache on post/page update or when plugin/theme upgrade process completed
  * Author: Brainstorm Force
  * Version: 1.0.0
  * Author URI: http://www.brainstormforce.com/
